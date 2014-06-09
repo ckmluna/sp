@@ -1,0 +1,233 @@
+a {
+  text-decoration: none;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Tahoma;
+  min-height: 100%;
+  position:relative;
+}
+
+input, select {
+  font-family: Tahoma;
+}
+
+#masthead {
+  background: #FFDDCC;
+  padding: 10px;
+}
+
+#header-wrapper {
+  width: 1000px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#header-wrapper h1 {
+  display: block;
+  float: left;
+  margin: 0;
+  color: #7B1113;
+}
+
+#info-badge {
+  display: block;
+  float: right;
+  font-size: small;
+}
+
+#info-badge img {
+  display: block;
+  width: 30px;
+  height: 30px;
+  margin: 0 auto;
+}
+
+#info-badge a {
+  padding-left: 8px;
+}
+
+#auxmenu {
+  background: #DDBBAA;
+  border-top: 1px solid #BB9988;
+}
+
+#nav-wrapper  {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 5px 0;
+  overflow: hidden;
+}
+
+#nav {
+  float: left;
+}
+
+#nav a {
+  padding-right: 20px;
+  color: #886655;
+}
+
+#nav a:hover {
+  color: #442211;
+}
+
+#search {
+  float: right;
+  border-collapse: collapse;
+}
+
+#search-field {
+  background: white;
+}
+
+#search-field input {
+  border: 0;
+}
+
+#search-field input:focus {
+  outline: 0;
+}
+
+#search-button {
+  padding: 0 5px;
+  background: #7B1113;
+  color: white;
+  text-align: center;
+  font-size: small;
+}
+
+#search-button:hover {
+  background: #B22;
+}
+
+#content-wrapper {
+  width: 1000px;
+  margin: 0 auto;
+  background: white;
+  overflow: hidden;
+}
+
+#content-wrapper h1, h2, h3 {
+  margin: 0px;
+}
+
+#content-wrapper2 {
+  margin: 0 auto;
+  background: white;
+  overflow: hidden;
+}
+
+#content-wrapper2 h1, h2, h3 {
+  margin: 0px;
+}
+
+#content {
+  float: left;
+  width: 720px;
+  margin: 10px;
+  overflow: hidden;
+}
+
+#content2 {
+  width: 100%;
+  margin: 10px;
+  overflow: hidden;
+}
+
+#signin {
+  float: right;
+  width: 200px;
+  margin: 10px;
+  padding: 10px;
+  background: #FFDDCC;
+}
+
+#signin form {
+  margin: 0;
+}
+
+#signin label {
+  font-weight: bold;
+}
+
+#signin h4 {
+  margin: 0 0 10px 0;
+  font-weight: normal;
+}
+
+#signin h3 {
+  margin: 0 0 10px 0;
+  text-align: center;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 5px 0;
+  background: #FFDDCC;
+  text-align: center;
+  font-size: small;
+}
+
+.course-offering {
+  border-collapse: collapse;
+}
+
+.course-offering th, .course-offering td {
+  border: 1px solid black;
+  padding: 3px;
+}
+
+.total {
+  border: 1px solid black;
+}
+.total td {
+  border: 0;
+}
+
+.sign-field {
+  border: 1px solid #FC9;
+  padding: 3px;
+  width: 100%;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;
+}
+
+.sign-button {
+  margin-top: 10px;
+  padding: 8px;
+  border: 0;
+  background: #7B1113;
+  color: white;
+  font-weight: bold;
+}
+
+.sign-button:hover {
+  background: #B22;
+}
+
+.fieldlabel {
+  text-align: right;
+  font-weight: bold;
+}
+
+.notif {
+  width: 600px;
+  position: absolute;
+  top: 80px;
+  left: 50%;
+  margin-left: -300px;
+  padding: 5px;
+  box-shadow: 1px 1px 1px #666;
+  background: #FC3;
+  opacity: .75;
+  text-align: center;
+}
