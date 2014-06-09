@@ -1,4 +1,0 @@
-sp
-==
-
-UPLB Academic Analytics
